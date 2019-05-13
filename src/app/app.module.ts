@@ -7,9 +7,7 @@ import { CustomersModule } from './customers/customers.module';
 import { SharedModule } from './shared/shared.module';
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
+  declarations: [ AppComponent ],
   imports: [ BrowserModule, CustomersModule, SharedModule, AppRoutingModule ],
   providers: [],
   bootstrap: [ AppComponent ]
