@@ -8,8 +8,10 @@ import { AppComponent }  from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
+
   imports:      [ BrowserModule, CustomersModule, SharedModule, CoreModule, AppRoutingModule ],
   declarations: [ AppComponent ],
   bootstrap:    [ AppComponent ]
+
 })
 export class AppModule { }
